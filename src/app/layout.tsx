@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { ThemeModeScript } from "flowbite-react";
 import "./globals.css";
-import Navbar from "../components/navbar/navbar";
-import Footer from "../components/footer/footer";
+import NavbarPage from "../components/NavbarPage/NavbarPage";
+import FooterPage from "../components/FooterPage/FooterPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,13 +18,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        <main className="flex min-h-screen flex-col items-center justify-between p-12">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <ThemeModeScript />
+      </head>
+      <body
+        className={`${inter.className} antialiased mx-auto max-w-screen-xl`}
+        style={{ border: "2px solid"}}
+      >
+        <NavbarPage />
+        <main className="min-h-screen flex flex-col items-center justify-evenly p-4 md:p8 lg:p-12">
           {children}
         </main>
-        <Footer />
+        <FooterPage />
       </body>
     </html>
   );
