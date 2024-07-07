@@ -27,7 +27,7 @@ export default function RootLayout({
         style={{ border: "2px solid"}}
       >
         <NavbarPage />
-        <main className="min-h-screen flex flex-col items-center justify-evenly p-4 md:p8 lg:p-12">
+        <main className="min-h-screen">
           {children}
         </main>
         <FooterPage />

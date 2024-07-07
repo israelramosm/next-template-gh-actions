@@ -1,9 +1,9 @@
-import Image from "next/image";
+import PageHeader from "@/src/components/PageHeader/PageHeader";
 
 export default function About() {
   return (
     <>
-      <h1>About</h1>
+      <PageHeader title="About"/>
     </>
   );
 }
