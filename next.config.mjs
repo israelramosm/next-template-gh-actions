@@ -2,7 +2,7 @@
 
 const nextConfig = {
   basePath: "/my-next",
-  assetPrefix: '/repository/'
+  assetPrefix: '/my-next/'
 };
 
 export default nextConfig;
