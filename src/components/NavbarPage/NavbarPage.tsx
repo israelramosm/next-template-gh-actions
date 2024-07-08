@@ -20,14 +20,14 @@ const NavbarPage = () => (
   <Navbar theme={customNavbarTheme} rounded>
     <NavbarBrand as={Link} href="https://flowbite-react.com">
       <Image
-        src="/assets/next.svg"
+        src="assets/next.svg"
         className="mr-3 h-6 sm:h-9"
         alt="Flowbite React Logo"
         width={80}
         height={80}
       />
       <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-        Flowbite React
+        w/Flowbite React
       </span>
     </NavbarBrand>
     <NavbarToggle />
