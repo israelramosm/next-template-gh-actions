@@ -41,9 +41,9 @@ const NavbarPage = () => (
       <NavbarLink as={Link} href="/about">
         About
       </NavbarLink>
-      <NavbarLink href="/#services">Services</NavbarLink>
-      <NavbarLink href="/#pricing">Pricing</NavbarLink>
-      <NavbarLink href="/#contact">Contact</NavbarLink>
+      <NavbarLink as={Link} href="/#services">Services</NavbarLink>
+      <NavbarLink as={Link} href="/#pricing">Pricing</NavbarLink>
+      <NavbarLink as={Link}  href="/#contact">Contact</NavbarLink>
     </NavbarCollapse>
   </Navbar>
 );
