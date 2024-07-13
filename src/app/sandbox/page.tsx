@@ -28,7 +28,7 @@ export default function Sandbox() {
           </Card>
         </div>
         <div>
-          <Avatar img="/assets/vercel.svg" alt="avatar of Jese" rounded />
+          <Avatar img="images/vercel.svg" alt="avatar of Jese" rounded />
         </div>
         <div>
           <Card href="#" className="max-w-sm">
