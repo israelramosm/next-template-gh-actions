@@ -23,11 +23,10 @@ export default function RootLayout({
         <ThemeModeScript />
       </head>
       <body
-        className={`${inter.className} antialiased mx-auto max-w-screen-xl`}
-        style={{ border: "2px solid"}}
+        className={`${inter.className} antialiased`}
       >
         <NavbarPage />
-        <main className="min-h-screen">
+        <main className="relative h-[89vh]">
           {children}
         </main>
         <FooterPage />
