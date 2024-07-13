@@ -1,9 +1,10 @@
 import PageHeader from "@/src/components/PageHeader/PageHeader";
+import Section from "@/src/components/Section/Section";
 import { Alert, Avatar, Button, Card } from "flowbite-react";
 
 export default function Sandbox() {
   return (
-    <section>
+    <Section id="about" className="h-full flex flex-col justify-evenly">
       <PageHeader title="Sandbox" />
       <div className="flex flex-col items-center justify-evenly p-4 md:p8 lg:p-12">
         <div>
@@ -41,6 +42,6 @@ export default function Sandbox() {
           </Card>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
