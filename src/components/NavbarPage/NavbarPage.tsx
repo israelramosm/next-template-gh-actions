@@ -1,4 +1,4 @@
-import { DeepPartial } from "@/src/util/types";
+import { DeepPartial } from '@/src/util/types';
 import {
   FlowbiteNavbarTheme,
   Navbar,
@@ -6,13 +6,13 @@ import {
   NavbarCollapse,
   NavbarLink,
   NavbarToggle,
-} from "flowbite-react";
-import Image from "next/image";
-import Link from "next/link";
+} from 'flowbite-react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const customNavbarTheme: DeepPartial<FlowbiteNavbarTheme> = {
   root: {
-    base: "p-4 dark:bg-gray-800 md:flex md:items-center md:justify-between",
+    base: 'p-4 dark:bg-gray-800 md:flex md:items-center md:justify-between',
   },
 };
 
@@ -41,9 +41,15 @@ const NavbarPage = () => (
       <NavbarLink as={Link} href="/about">
         About
       </NavbarLink>
-      <NavbarLink as={Link} href="/#services">Services</NavbarLink>
-      <NavbarLink as={Link} href="/#pricing">Pricing</NavbarLink>
-      <NavbarLink as={Link}  href="/#contact">Contact</NavbarLink>
+      <NavbarLink as={Link} href="/#services">
+        Services
+      </NavbarLink>
+      <NavbarLink as={Link} href="/#pricing">
+        Pricing
+      </NavbarLink>
+      <NavbarLink as={Link} href="/#contact">
+        Contact
+      </NavbarLink>
     </NavbarCollapse>
   </Navbar>
 );

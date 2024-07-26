@@ -1,12 +1,12 @@
-import PageHeader from "@/src/components/PageHeader/PageHeader";
-import Section from "@/src/components/Section/Section";
-import { Alert, Avatar, Button, Card } from "flowbite-react";
+import PageHeader from '@/src/components/PageHeader/PageHeader';
+import Section from '@/src/components/Section/Section';
+import { Alert, Avatar, Button, Card } from 'flowbite-react';
 
 export default function Sandbox() {
   return (
-    <Section id="about" className="h-full flex flex-col justify-evenly">
+    <Section id="about" className="flex h-full flex-col justify-evenly">
       <PageHeader title="Sandbox" />
-      <div className="flex flex-col items-center justify-evenly p-4 md:p8 lg:p-12">
+      <div className="md:p8 flex flex-col items-center justify-evenly p-4 lg:p-12">
         <div>
           <Button>Click me</Button>
         </div>

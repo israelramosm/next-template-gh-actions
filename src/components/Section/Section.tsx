@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 const Section = ({
   children,
@@ -10,7 +10,10 @@ const Section = ({
   className?: string;
 }>) => {
   return (
-    <section id={id} className={`mx-auto container border-solid border-2 w-full px-4 lg:px-0 ${className}`}>
+    <section
+      id={id}
+      className={`container mx-auto w-full border-2 border-solid px-4 lg:px-0 ${className}`}
+    >
       {children}
     </section>
   );
