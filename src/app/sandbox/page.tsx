@@ -1,5 +1,5 @@
-import PageHeader from '@/src/components/PageHeader/PageHeader';
-import Section from '@/src/components/Section/Section';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import Section from '@/components/Section/Section';
 import { Alert, Avatar, Button, Card } from 'flowbite-react';
 
 export default function Sandbox() {
@@ -28,7 +28,7 @@ export default function Sandbox() {
           </Card>
         </div>
         <div>
-          <Avatar img="images/vercel.svg" alt="avatar of Jese" rounded />
+          <Avatar img="/images/vercel.svg" alt="avatar of Jese" rounded />
         </div>
         <div>
           <Card href="#" className="max-w-sm">

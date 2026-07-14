@@ -1,4 +1,4 @@
-import { DeepPartial } from '@/src/util/types';
+import { DeepPartial } from '@/util/types';
 import {
   FlowbiteFooterTheme,
   Footer,

@@ -1,5 +1,5 @@
-import PageHeader from '@/src/components/PageHeader/PageHeader';
-import Section from '@/src/components/Section/Section';
+import PageHeader from '@/components/PageHeader/PageHeader';
+import Section from '@/components/Section/Section';
 
 export default function About() {
   return (
